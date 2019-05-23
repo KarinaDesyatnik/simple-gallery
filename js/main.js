@@ -19,3 +19,23 @@
   $('h1, .movie_container').unwrap();
 
 }
+
+//-----stat clipboared-------//
+  jQuery(document).ready(function($){
+$('#faq1').click(function(){
+history.pushState('', document.title, window.location.pathname);    
+var url = document.location.href + $(this).attr('href');
+new Clipboard('.copy_link', {text: function(){
+ return url;
+}});
+});
+$('.copy_link').click(function(){ 
+  history.pushState('', document.title, window.location.pathname);
+var url = document.location.href + $(this).attr('href');
+new Clipboard('.copy_link', {text: function(){
+ return url;
+}});
+});
+});
+
+//-----end clipboared-------//

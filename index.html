@@ -318,25 +318,6 @@ That will make only the selected folders visible, as both excluding and includin
 <!-- -------------------End popup with video-------------------->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
-<script>
-	jQuery(document).ready(function($){
-$('#faq1').click(function(){
-history.pushState('', document.title, window.location.pathname);		
-var url = document.location.href + $(this).attr('href');
-new Clipboard('.copy_link', {text: function(){
- return url;
-}});
-});
-$('.copy_link').click(function(){	
-	history.pushState('', document.title, window.location.pathname);
-var url = document.location.href + $(this).attr('href');
-new Clipboard('.copy_link', {text: function(){
- return url;
-}});
-});
-});
-</script>
-
  <script src="js/libs.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
  <script src="js/main.js"></script>
