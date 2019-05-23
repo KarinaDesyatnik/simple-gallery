@@ -484,7 +484,7 @@ footer .container .copy {
             order: 5;
   }
   .soc-icon {
-    width: 160px;
+    width: 200px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
@@ -495,8 +495,11 @@ footer .container .copy {
     display: flex;
     margin-top: 40px;
   }
+  .soc-icon img {
+    height: 39px;
+  }
   footer .container .soc-icon {
-    width: 160px;
+    width: 200px;
   }
   header {
     background: url("../img/bg-h.png");
@@ -546,7 +549,7 @@ footer .container .copy {
   }
   header .google-play-logo img,
   .play-market img {
-    width: 160px;
+    width: 200px;
   }
 }
 
