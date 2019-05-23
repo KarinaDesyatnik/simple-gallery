@@ -320,13 +320,21 @@ That will make only the selected folders visible, as both excluding and includin
  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
 <script>
 	jQuery(document).ready(function($){
-var url = document.location.href;
-
+$('#faq1').click(function(){
+history.pushState('', document.title, window.location.pathname);		
+var url = document.location.href + $(this).attr('href');
 new Clipboard('.copy_link', {text: function(){
  return url;
 }});
 });
-	 
+$('.copy_link').click(function(){	
+	history.pushState('', document.title, window.location.pathname);
+var url = document.location.href + $(this).attr('href');
+new Clipboard('.copy_link', {text: function(){
+ return url;
+}});
+});
+});
 </script>
 
  <script src="js/libs.min.js"></script>
