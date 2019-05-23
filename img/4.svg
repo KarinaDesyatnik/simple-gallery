@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Icons" transform="translate(-2 -2)">
+    <path id="Fill_2798" data-name="Fill 2798" d="M37.113,36H.887a.808.808,0,0,1-.411-.108.3.3,0,0,1-.091-.072.766.766,0,0,1-.234-.234.214.214,0,0,0-.021-.026.192.192,0,0,1-.023-.028.115.115,0,0,1,0-.021s0-.008,0-.015a.858.858,0,0,1-.1-.4V.9A.905.905,0,0,1,.887,0H37.113A.905.905,0,0,1,38,.9V35.1A.884.884,0,0,1,37.113,36ZM1.773,1.8V32.13l9.013-13.716a.893.893,0,0,1,.68-.414.977.977,0,0,1,.724.306L17.525,24.5,24.912,9.5a.876.876,0,0,1,1.587,0l9.729,22.1V1.8Z" transform="translate(13 14)" fill="#f18000"/>
+    <path id="Fill_2799" data-name="Fill 2799" d="M4.5,9A4.5,4.5,0,1,0,0,4.5,4.5,4.5,0,0,0,4.5,9" transform="translate(20 20)" fill="#f18000"/>
+    <rect id="Rectangle" width="10" height="10" rx="1" transform="translate(2 2)" fill="#f18000"/>
+    <rect id="Rectangle-2" data-name="Rectangle" width="44" height="2" transform="translate(11 6)" fill="#f18000"/>
+    <rect id="Rectangle_Copy_4" data-name="Rectangle Copy 4" width="44" height="2" transform="translate(11 56)" fill="#f18000"/>
+    <rect id="Rectangle-3" data-name="Rectangle" width="2" height="47" transform="translate(6 7)" fill="#f18000"/>
+    <rect id="Rectangle_Copy_5" data-name="Rectangle Copy 5" width="2" height="47" transform="translate(56 7)" fill="#f18000"/>
+    <rect id="Rectangle_Copy_2" data-name="Rectangle Copy 2" width="10" height="10" rx="1" transform="translate(2 52)" fill="#f18000"/>
+    <rect id="Rectangle_Copy" data-name="Rectangle Copy" width="10" height="10" rx="1" transform="translate(52 2)" fill="#f18000"/>
+    <rect id="Rectangle_Copy_3" data-name="Rectangle Copy 3" width="10" height="10" rx="1" transform="translate(52 52)" fill="#f18000"/>
+  </g>
+</svg>

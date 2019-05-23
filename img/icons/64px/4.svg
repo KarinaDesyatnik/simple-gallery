@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/64px/4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/64px/4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4" fill="#F18000">
+            <path d="M49.2272727,45.608 L39.4987273,23.504 C39.3498182,23.198 39.0431364,23 38.7063182,23 C38.3695,23 38.0628182,23.198 37.9121364,23.504 L30.5251818,38.498 L25.1892727,32.306 C25.0084545,32.108 24.7443182,32 24.466,32 C24.1894545,32.018 23.9377273,32.18 23.7852727,32.414 L14.7727273,46.13 L14.7727273,15.8 L49.2272727,15.8 L49.2272727,45.608 Z M49.9718182,50 L50.1136364,50 C50.6029091,50 51,49.604 51,49.1 L51,14.9 C51,14.414 50.6029091,14 50.1136364,14 L13.8863636,14 C13.3970909,14 13,14.414 13,14.9 L13,49.1 C13,49.244 13.0407727,49.388 13.0992727,49.496 C13.1028182,49.514 13.1010455,49.514 13.1063636,49.532 C13.117,49.55 13.1382727,49.568 13.1506818,49.586 C13.2127273,49.676 13.2907273,49.766 13.3846818,49.82 C13.4148182,49.856 13.4431818,49.874 13.4750909,49.892 C13.6009545,49.964 13.7356818,50 13.8863636,50 L49.9381364,50 L49.9718182,50 Z" id="Fill-2798"></path>
+            <path d="M24.5,29 C26.9822,29 29,26.984 29,24.5 C29,22.016 26.9822,20 24.5,20 C22.0178,20 20,22.016 20,24.5 C20,26.984 22.0178,29 24.5,29" id="Fill-2799"></path>
+            <rect id="Rectangle" x="2" y="2" width="10" height="10" rx="1"></rect>
+            <rect id="Rectangle" x="11" y="6" width="44" height="2"></rect>
+            <rect id="Rectangle-Copy-4" x="11" y="56" width="44" height="2"></rect>
+            <rect id="Rectangle" x="6" y="7" width="2" height="47"></rect>
+            <rect id="Rectangle-Copy-5" x="56" y="7" width="2" height="47"></rect>
+            <rect id="Rectangle-Copy-2" x="2" y="52" width="10" height="10" rx="1"></rect>
+            <rect id="Rectangle-Copy" x="52" y="2" width="10" height="10" rx="1"></rect>
+            <rect id="Rectangle-Copy-3" x="52" y="52" width="10" height="10" rx="1"></rect>
+        </g>
+    </g>
+</svg>

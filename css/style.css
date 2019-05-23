@@ -1,0 +1,633 @@
+h2 {
+  font-size: 34px;
+  font-family: 'montserrat-bold';
+  text-align: center;
+  padding-bottom: 66px;
+  color: #171D1C;
+}
+
+header {
+  background: url("../img/bg-h.png");
+  -webkit-background-size: 1220px 980px;
+          background-size: 1220px 980px;
+  background-position: top right;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+header .row .col-md-6:last-child {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .row .col-md-6:last-child img {
+  padding-top: 90px;
+}
+
+header .row .col-md-6 p {
+  font-size: 22px;
+  padding-top: 15px;
+  padding-bottom: 35px;
+  font-family: 'montserrat-medium';
+  color: #141414;
+  line-height: 1.65;
+}
+
+header .row .col-md-6 .google-play-logo img {
+  margin-bottom: 48px;
+}
+
+header .row .col-md-6 .soc-icon a {
+  margin-right: 16px;
+}
+
+.video {
+  margin: 150px auto;
+  margin-bottom: 100px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+h1 {
+  margin-top: 210px;
+  font-size: 46px;
+  font-weight: 700;
+  font-family: 'montserrat-bold';
+  line-height: 1.27;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.logo a {
+  color: #000;
+}
+
+.logo a:hover {
+  color: #000;
+}
+
+.logo span {
+  font-family: 'montserrat-semibold';
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.video .movie_container {
+  position: relative;
+}
+
+.video .movie_container .bg_video {
+  width: 100%;
+}
+
+.video a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.white-popup-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.white-popup-block iframe {
+  width: 1140px;
+  height: 560px;
+}
+
+.features .col {
+  width: 192px;
+  min-width: 192px;
+  text-align: center;
+  border: 1px solid #F9F2E5;
+  padding: 22px 22px;
+  padding-top: 40px;
+}
+
+.features .col p {
+  padding-top: 38px;
+  font-size: 15px;
+  color: #141414;
+  font-family: 'montserrat-medium';
+}
+
+.features .col img {
+  height: 55px;
+}
+
+.features .col:nth-child(1),
+.features .col:nth-child(6),
+.features .col:nth-child(11) {
+  border-left: none;
+}
+
+.features .col:nth-child(15) {
+  border-right: none;
+}
+
+.features .col:nth-child(5) {
+  border-right: none;
+}
+
+.features .col:nth-child(10) {
+  border-right: none;
+}
+
+.features .col:nth-child(1),
+.features .col:nth-child(2),
+.features .col:nth-child(3),
+.features .col:nth-child(4),
+.features .col:nth-child(5) {
+  border-top: none;
+}
+
+.features .col:nth-child(15),
+.features .col:nth-child(14),
+.features .col:nth-child(13),
+.features .col:nth-child(12),
+.features .col:nth-child(11) {
+  border-bottom: none;
+}
+
+.faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.faq .title {
+  font-size: 22px;
+  color: #141414;
+  font-family: 'montserrat-bold';
+  padding-bottom: 13px;
+}
+
+.faq p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #D8D8D8;
+  margin-bottom: 40px;
+}
+
+.faq a {
+  color: #424242;
+  font-family: 'montserrat-regular';
+  font-size: 16px;
+}
+
+footer {
+  background: url("../img/Oval.png");
+  -webkit-background-size: 2328px 1381px;
+          background-size: 2328px 1381px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+footer .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container .play-market {
+  margin-top: 72px;
+}
+
+footer .container .soc-icon {
+  margin-top: 48px;
+  margin-bottom: 50px;
+  width: 216px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .container p,
+footer .container .copy {
+  font-size: 14px;
+  color: #2B2B2B;
+  text-align: center;
+  font-family: 'montserrat-medium';
+}
+
+footer .container .copy {
+  padding-bottom: 34px;
+  padding-top: 9px;
+  color: #2B2B2B;
+  font-family: 'montserrat-medium';
+}
+
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1700px) {
+  /**/
+  header {
+    -webkit-background-size: 930px 970px;
+            background-size: 930px 970px;
+  }
+  .bgi {
+    width: auto;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1400px) {
+  /**/
+  header .row .col-md-6:last-child {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header {
+    -webkit-background-size: 910px 970px;
+            background-size: 910px 970px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/
+  .white-popup-block iframe {
+    width: 90%;
+    height: 450px;
+  }
+  .features .col {
+    min-width: 194px;
+  }
+  .features .col:nth-child(15),
+  .features .col:nth-child(14),
+  .features .col:nth-child(13) {
+    max-width: 194px;
+    width: 194px;
+    min-width: 241px;
+  }
+  .features .col:nth-child(13) {
+    min-width: 239px;
+  }
+  .features .col:nth-child(5) {
+    border-left: none;
+    border-right: 2px solid #F9F2E5;
+    border-top: 1px solid #F9F2E5;
+  }
+  .features .col:nth-child(9),
+  .features .col:nth-child(13) {
+    border-left: none;
+  }
+  .features .col:nth-child(4),
+  .features .col:nth-child(8),
+  .features .col:nth-child(12) {
+    border-right: none;
+  }
+  .features .col:nth-child(12) {
+    border-bottom: 2px solid #F9F2E5;
+  }
+  .features .col:nth-child(15),
+  .features .col:nth-child(10) {
+    border-right: 2px solid #F9F2E5;
+  }
+  .features .col:nth-child(11) {
+    border-bottom: 1px solid #F9F2E5;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/
+  header .col-md-6:last-child img {
+    width: 100%;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  header .row .col-md-6 p {
+    font-size: 16px;
+  }
+  .soc-icon img {
+    height: 35px;
+  }
+  .features .col:nth-child(15),
+  .features .col:nth-child(14),
+  .features .col:nth-child(13) {
+    min-width: 240px;
+  }
+  .col:nth-child(6),
+  .col:nth-child(11) {
+    border-left: 1px solid #F9F2E5 !important;
+  }
+  .col:nth-child(4),
+  .col:nth-child(7),
+  .col:nth-child(10),
+  .col:nth-child(13) {
+    border-left: none;
+  }
+  .col:nth-child(5) {
+    border-right: 1px solid #F9F2E5 !important;
+    border-left: 1px solid #F9F2E5 !important;
+  }
+  .col:nth-child(10) {
+    border-right: 1px solid #F9F2E5 !important;
+  }
+  .col:nth-child(3),
+  .col:nth-child(6),
+  .col:nth-child(9),
+  .col:nth-child(12) {
+    border-right: none;
+  }
+  .col:nth-child(4) {
+    border-top: 1px solid #F9F2E5 !important;
+    border-right: 1px solid #F9F2E5 !important;
+  }
+  .col:nth-child(8) {
+    border-right: 1px solid #F9F2E5 !important;
+  }
+  .col:nth-child(9) {
+    border-left: 1px solid #F9F2E5 !important;
+  }
+  .col:nth-child(12) {
+    border-bottom: 1px solid #F9F2E5 !important;
+  }
+  .col:nth-child(15) {
+    border-right: none !important;
+  }
+  header .row .col-md-6 .google-play-logo img,
+  .play-market img {
+    width: 160px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /**/
+  .logo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .logo a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .logo span {
+    font-size: 16.16px;
+  }
+  .logo img {
+    height: 44px;
+  }
+  h1 {
+    margin-top: 33px;
+    font-weight: 600;
+    text-align: center;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  header .row p {
+    text-align: center;
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  header .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .row .col-md-6 {
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  header .row .col-md-6 img {
+    width: 216px;
+    height: 452px;
+    padding-top: 15px !important;
+  }
+  header .row .google-play-logo {
+    -webkit-box-ordinal-group: 5;
+    -webkit-order: 4;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  header .row .soc-icon {
+    -webkit-box-ordinal-group: 6;
+    -webkit-order: 5;
+        -ms-flex-order: 5;
+            order: 5;
+  }
+  .soc-icon {
+    width: 160px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 40px;
+  }
+  footer .container .soc-icon {
+    width: 160px;
+  }
+  header {
+    background: url("../img/bg-h.png");
+    -webkit-background-size: 768px 768px;
+            background-size: 768px 768px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .white-popup-block iframe {
+    height: 320px;
+    width: 100%;
+  }
+  .white-popup-block {
+    width: 100%;
+  }
+  .mfp-content {
+    width: 100% !important;
+  }
+  .mfp-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .pl img {
+    height: 56px;
+    width: 56px;
+  }
+  .video {
+    margin: 88px 0;
+  }
+  .features .col p {
+    font-size: 16px;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  .faq {
+    padding-top: 73px;
+    padding-bottom: 73px;
+  }
+  .features .col {
+    min-width: 241px;
+    border: none !important;
+  }
+  .features .col:nth-child(15),
+  .features .col:nth-child(14),
+  .features .col:nth-child(13) {
+    min-width: 270px;
+  }
+  header .google-play-logo img,
+  .play-market img {
+    width: 160px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 560px) {
+  /**/
+  .features .col:nth-child(15),
+  .features .col:nth-child(14),
+  .features .col:nth-child(13) {
+    min-width: 242px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 498px) {
+  /**/
+  header {
+    background: url("../img/bg-h.png");
+    -webkit-background-size: 686px 650px;
+            background-size: 686px 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .white-popup-block iframe {
+    height: 250px;
+    width: 100%;
+  }
+  .features .col img {
+    height: auto;
+  }
+  .features .col {
+    padding: 22px 0;
+  }
+  .features .col p {
+    max-width: 219px;
+  }
+  .features .col:nth-child(15),
+  .features .col:nth-child(14),
+  .features .col:nth-child(13) {
+    min-width: 100% !important;
+  }
+  h2 {
+    font-size: 22px;
+    padding-bottom: 30px;
+  }
+  .faq .title {
+    font-size: 18px;
+  }
+  footer p,
+  footer .copy {
+    font-size: 12px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/
+}
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/
+}
