@@ -255,8 +255,8 @@ a:hover {
 
 footer {
   background: url("../img/Oval.png");
-  -webkit-background-size: 2328px 1381px;
-          background-size: 2328px 1381px;
+  -webkit-background-size: 2228px 700px;
+          background-size: 2228px 700px;
   background-repeat: no-repeat;
   background-position: center top;
 }
@@ -283,11 +283,12 @@ footer .container .play-market {
 
 footer .container .play-market img {
   width: 180px;
+  margin-top: -40px;
 }
 
 footer .container .soc-icon {
-  margin-top: 48px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 180px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -312,8 +313,8 @@ footer .container .copy {
 }
 
 footer .container .copy {
-  padding-bottom: 34px;
-  padding-top: 9px;
+  padding-bottom: 15px;
+  padding-top: 2px;
   color: #424242;
   font-family: 'montserrat-medium';
 }
@@ -629,10 +630,13 @@ footer .container .copy {
             transform: scale(0.9);
   }
   .video iframe {
-    height: 300px;
+    height: 281px;
   }
   .iframe {
-    height: 300px !important;
+    height: 281px !important;
+  }
+  header .row p {
+    max-width: 80%;
   }
 }
 
@@ -642,7 +646,7 @@ footer .container .copy {
   .features .col:nth-child(15),
   .features .col:nth-child(14),
   .features .col:nth-child(13) {
-    min-width: 242px;
+    min-width: 241px;
   }
 }
 
@@ -686,10 +690,10 @@ footer .container .copy {
     font-size: 12px;
   }
   .video iframe {
-    height: 216px;
+    height: 171px;
   }
   .iframe {
-    height: 216px !important;
+    height: 171px !important;
   }
 }
 
