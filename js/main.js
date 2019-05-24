@@ -20,6 +20,11 @@
 
 }
 
+$('.play').click(function(){
+    $('.over').toggleClass('active');
+    
+  })
+
 //-----stat clipboared-------//
   jQuery(document).ready(function($){
 $('#faq1').click(function(){
@@ -37,5 +42,11 @@ new Clipboard('.copy_link', {text: function(){
 }});
 });
 });
-
 //-----end clipboared-------//
+
+$(document).on('click', '.play', function() {
+  var $video = $('#video'),
+    src = $video.attr('src');
+ 
+  $video.attr('src', src + '&autoplay=1');
+});

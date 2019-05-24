@@ -3,13 +3,13 @@ h2 {
   font-family: 'montserrat-bold';
   text-align: center;
   padding-bottom: 66px;
-  color: #171D1C;
+  color: #424242;
 }
 
 header {
   background: url("../img/bg-h.png");
-  -webkit-background-size: 1220px 980px;
-          background-size: 1220px 980px;
+  -webkit-background-size: 1070px 980px;
+          background-size: 1070px 980px;
   background-position: top right;
   background-repeat: no-repeat;
   position: relative;
@@ -27,7 +27,10 @@ header .row .col-md-6:last-child {
 }
 
 header .row .col-md-6:last-child img {
-  padding-top: 90px;
+  -webkit-transform: scale(0.85);
+      -ms-transform: scale(0.85);
+          transform: scale(0.85);
+  padding-top: 60px;
 }
 
 header .row .col-md-6 p {
@@ -35,21 +38,61 @@ header .row .col-md-6 p {
   padding-top: 15px;
   padding-bottom: 35px;
   font-family: 'montserrat-medium';
-  color: #141414;
+  color: #424242;
   line-height: 1.65;
 }
 
 header .row .col-md-6 .google-play-logo img {
   margin-bottom: 48px;
+  width: 180px;
 }
 
 header .row .col-md-6 .soc-icon a {
   margin-right: 16px;
 }
 
+header .row .col-md-6 .soc-icon a img {
+  height: 39px;
+}
+
 .video {
   margin: 150px auto;
   margin-bottom: 100px;
+}
+
+.video .iframe {
+  width: 100%;
+  height: 560px;
+  position: relative;
+}
+
+.video .iframe .over {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.video .iframe .over img {
+  height: 100%;
+  cursor: pointer;
+}
+
+.video .iframe .over.active {
+  display: none;
+}
+
+.video iframe {
+  width: 1110px;
+  height: 560px;
+  position: absolute;
+  top: 0;
+}
+
+.video .br-video {
+  position: relative;
+  z-index: 50;
 }
 
 p {
@@ -62,6 +105,7 @@ h1 {
   font-weight: 700;
   font-family: 'montserrat-bold';
   line-height: 1.27;
+  color: #424242;
 }
 
 .logo {
@@ -71,15 +115,16 @@ h1 {
 }
 
 .logo a {
-  color: #000;
+  color: #424242;
 }
 
 .logo a:hover {
-  color: #000;
+  color: #424242;
 }
 
 .logo span {
   font-family: 'montserrat-semibold';
+  color: #424242;
 }
 
 a:hover {
@@ -135,7 +180,7 @@ a:hover {
 .features .col p {
   padding-top: 38px;
   font-size: 15px;
-  color: #141414;
+  color: #424242;
   font-family: 'montserrat-medium';
 }
 
@@ -184,9 +229,13 @@ a:hover {
 
 .faq .title {
   font-size: 22px;
-  color: #141414;
+  color: #424242;
   font-family: 'montserrat-bold';
   padding-bottom: 13px;
+}
+
+.faq .title:hover {
+  color: #F57C00;
 }
 
 .faq p {
@@ -195,12 +244,13 @@ a:hover {
   padding-bottom: 20px;
   border-bottom: 1px solid #D8D8D8;
   margin-bottom: 40px;
+  color: #424242;
+  font-size: 16px;
+  font-family: 'montserrat-regular';
 }
 
 .faq a {
   color: #424242;
-  font-family: 'montserrat-regular';
-  font-size: 16px;
 }
 
 footer {
@@ -231,10 +281,14 @@ footer .container .play-market {
   margin-top: 72px;
 }
 
+footer .container .play-market img {
+  width: 180px;
+}
+
 footer .container .soc-icon {
   margin-top: 48px;
   margin-bottom: 50px;
-  width: 216px;
+  width: 180px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -245,10 +299,14 @@ footer .container .soc-icon {
           justify-content: space-between;
 }
 
+footer .container .soc-icon img {
+  height: 39px;
+}
+
 footer .container p,
 footer .container .copy {
   font-size: 14px;
-  color: #2B2B2B;
+  color: #424242;
   text-align: center;
   font-family: 'montserrat-medium';
 }
@@ -256,7 +314,7 @@ footer .container .copy {
 footer .container .copy {
   padding-bottom: 34px;
   padding-top: 9px;
-  color: #2B2B2B;
+  color: #424242;
   font-family: 'montserrat-medium';
 }
 
@@ -265,8 +323,8 @@ footer .container .copy {
 @media only screen and (max-width: 1700px) {
   /**/
   header {
-    -webkit-background-size: 930px 970px;
-            background-size: 930px 970px;
+    -webkit-background-size: 1080px 970px;
+            background-size: 1080px 970px;
   }
   .bgi {
     width: auto;
@@ -283,8 +341,8 @@ footer .container .copy {
             justify-content: center;
   }
   header {
-    -webkit-background-size: 910px 970px;
-            background-size: 910px 970px;
+    -webkit-background-size: 1000px 970px;
+            background-size: 1000px 970px;
   }
 }
 
@@ -331,6 +389,9 @@ footer .container .copy {
   }
   .features .col:nth-child(11) {
     border-bottom: 1px solid #F9F2E5;
+  }
+  .video iframe {
+    max-width: 100% !important;
   }
 }
 
@@ -396,6 +457,12 @@ footer .container .copy {
   header .row .col-md-6 .google-play-logo img,
   .play-market img {
     width: 160px;
+  }
+  .video iframe {
+    height: 390px;
+  }
+  .iframe {
+    height: 390px !important;
   }
 }
 
@@ -476,15 +543,17 @@ footer .container .copy {
     -webkit-order: 4;
         -ms-flex-order: 4;
             order: 4;
+    margin-top: -10px;
   }
   header .row .soc-icon {
     -webkit-box-ordinal-group: 6;
     -webkit-order: 5;
         -ms-flex-order: 5;
             order: 5;
+    margin-top: 30px;
   }
   .soc-icon {
-    width: 200px;
+    width: 150px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
@@ -496,10 +565,13 @@ footer .container .copy {
     margin-top: 40px;
   }
   .soc-icon img {
-    height: 39px;
+    height: 32px;
   }
   footer .container .soc-icon {
-    width: 200px;
+    width: 150px;
+  }
+  footer .container .soc-icon img {
+    height: 32px;
   }
   header {
     background: url("../img/bg-h.png");
@@ -548,8 +620,19 @@ footer .container .copy {
     min-width: 270px;
   }
   header .google-play-logo img,
-  .play-market img {
-    width: 200px;
+  footer .play-market img {
+    width: 150px !important;
+  }
+  header .row .col-md-6:last-child img {
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  .video iframe {
+    height: 300px;
+  }
+  .iframe {
+    height: 300px !important;
   }
 }
 
@@ -601,6 +684,12 @@ footer .container .copy {
   footer p,
   footer .copy {
     font-size: 12px;
+  }
+  .video iframe {
+    height: 216px;
+  }
+  .iframe {
+    height: 216px !important;
   }
 }
 
