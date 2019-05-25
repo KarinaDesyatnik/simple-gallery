@@ -646,7 +646,7 @@ footer .container .copy {
   .features .col:nth-child(15),
   .features .col:nth-child(14),
   .features .col:nth-child(13) {
-    min-width: 241px;
+    min-width: 240px;
   }
 }
 
